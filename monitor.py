@@ -230,7 +230,7 @@ stocks = [
 ##"YDUQ3.SA"
 ]
 
-low = dict.fromkeys(stocks,99999)
+low = dict.fromkeys(stocks,999999999)
 high = dict.fromkeys(stocks,0)
 
 while(bool(True)):
