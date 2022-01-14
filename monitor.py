@@ -244,7 +244,7 @@ while(bool(True)):
         try:
             precoagora = si.get_live_price(stock)
             
-            #print(stock, si.get_live_price(stock))
+            print(stock, si.get_live_price(stock))
             if (low.get(stock)> precoagora):
                 print(stock,"no mínimo ->","%.2f" % precoagora)
                 low[stock] = precoagora

@@ -1,0 +1,5 @@
+gTTS==2.2.2
+pandas==1.1.5
+playsound==1.2.2
+prettytable==2.1.0
+yahoo_fin==0.8.7
